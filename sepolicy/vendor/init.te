@@ -1,1 +1,2 @@
 dontaudit init { bt_firmware_file firmware_file }:filesystem getattr;
+allow init sysfs_battery_supply:file { setattr };
