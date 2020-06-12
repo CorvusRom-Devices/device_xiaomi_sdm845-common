@@ -52,10 +52,33 @@ ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 sdm.debug.disable_inline_rotator=1
 sdm.debug.disable_inline_rotator_secure=1
 
+#hwui properties
+ro.hwui.texture_cache_size=72
+ro.hwui.layer_cache_size=48
+ro.hwui.r_buffer_cache_size=8
+ro.hwui.path_cache_size=32
+ro.hwui.gradient_cache_size=1
+ro.hwui.drop_shadow_cache_size=6
+ro.hwui.texture_cache_flushrate=0.4
+ro.hwui.text_small_cache_width=1024
+ro.hwui.text_small_cache_height=1024
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_large_cache_height=4096
+
 # IMS
 persist.vendor.ims.disableUserAgent=0
 
 # Media
+media.stagefright.enable-player=true
+media.stagefright.enable-http=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-scan=true
+mmp.enable.3g2=true
+media.aac_51_output_enabled=true
+mm.enable.smoothstreaming=true
+mm.enable.qcom_parser=13631487
+persist.mm.enable.prefetch=true
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Memory optimizations
@@ -89,3 +112,45 @@ rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ro.com.android.dataroaming=true
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+persist.vendor.radio.force_on_dc=true
+
+# Some Tweaks
+persist.rmnet.data.enable=true
+persist.data.wda.enable=true
+persist.data.df.dl_mode=5
+persist.data.df.ul_mode=5
+persist.data.df.agg.dl_pkt=10
+persist.data.df.agg.dl_size=4096
+persist.data.df.mux_count=8
+persist.data.df.iwlan_mux=9
+ro.min_pointer_dur=8
+persist.sys.scrollingcache=3
+net.tcp.buffersize.default=4096,87380,256960,4096, 16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,4096,163 84,256960
+net.tcp.buffersize.umts=4096,87380,256960,4096,163 84,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,163 84,256960
+net.tcp.buffersize.edge=4096,87380,256960,4096,163 84,256960
+net.rmnet0.dns1=8.8.8.8
+net.rmnet0.dns2=8.8.4.4
+net.dns1=8.8.8.8
+net.dns2=8.8.4.4
+ro.telephony.call_ring.delay=0
+ring.delay=0
+ro.config.vc_call_steps=20
+ro.media.enc.jpeg.quality=100
+ro.ril.power_collapse=1
+pm.sleep_mode=1
+wifi.supplicant_scan_interval=180
+ro.mot.eri.losalert.delay=1000
+power_supply.wakeup=enable
+ro.config.hw_power_saving=1
+debug.sf.hw=1
