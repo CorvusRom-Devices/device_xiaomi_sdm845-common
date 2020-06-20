@@ -129,6 +129,11 @@ persist.rild.nitz_short_ons_1=
 persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
 persist.vendor.radio.force_on_dc=true
+persist.data.iwlan=1
+persist.data.iwlan.ipsec.ap=1
+persist.sys.cust.lte_config=true
+persist.radio.VT_ENABLE=1
+persist.radio.volte.dan_support=true
 
 # Some Tweaks
 persist.rmnet.data.enable=true
