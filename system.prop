@@ -101,6 +101,9 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 # Netflix custom property
 ro.netflix.bsp_rev=Q845-05000-1
 
+# Navbar - gestural
+ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
