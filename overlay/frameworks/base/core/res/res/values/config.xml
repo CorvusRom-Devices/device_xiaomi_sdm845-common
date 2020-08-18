@@ -200,7 +200,7 @@
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
 
     <!-- Whether the always on display mode is available. -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
@@ -399,6 +399,12 @@
 
     <!-- Whether the default emergency settings should be shown. -->
     <bool name="config_showDefaultEmergency">true</bool>
+
+    <!-- Burn in protection -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
+
+    <!-- If true, the display will be shifted around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">true</bool>
 
     <!-- Whether UI for multi user should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
