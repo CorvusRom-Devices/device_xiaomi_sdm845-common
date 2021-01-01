@@ -244,6 +244,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+# Enable updatable APEX
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
