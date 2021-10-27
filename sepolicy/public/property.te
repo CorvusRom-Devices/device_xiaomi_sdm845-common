@@ -1,4 +1,5 @@
 # IMEI
-type deviceid_prop, property_type;
+vendor_public_prop(deviceid_prop);
 
 system_public_prop(settingslib_prop)
+
